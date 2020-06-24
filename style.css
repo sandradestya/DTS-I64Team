@@ -6,10 +6,12 @@
 }
 
 
+
+/* Css Untuk Header dan navigasi */
 header {
     display: flex;
     align-items: center;
-    background-color:#090722;
+    background-color: #090722;
     width: 100%;
     justify-content: flex-end;
     padding: 20px 2%;
@@ -62,17 +64,16 @@ li a:hover {
     transition: .5s;
 }
 
+/* ------------------------------------------------------------------- */
 
-
-
-
+/* css bagian konten utama (Home) */
 section {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 100px 100px;
-    height: 100vh;
+
 }
 
 section .bg {
@@ -91,15 +92,13 @@ section .bg {
     height: auto;
     position: relative;
     top: 50px;
+    margin-bottom: 250px;
 
 
 }
 
-#home .container {}
-
 span {
     line-height: 50px;
-
     color: white;
     text-transform: uppercase;
     background-color: #2f3542;
@@ -119,7 +118,7 @@ span:hover {
     background-color: black;
 }
 
-/* animasi */
+/* animasi pada kontent utama */
 .container .ml15 {
     font-weight: 800;
     font-size: 3.8em;
@@ -132,7 +131,9 @@ span:hover {
     line-height: 1em;
 }
 
-/* -----------Project-------------- */
+/* ----------------------------- ----------------------------------------------------*/
+
+/* Css pada konten tambahan(Page project) */
 
 #project {
     height: auto;
@@ -144,39 +145,39 @@ span:hover {
 }
 
 .section-title {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: white;
-  text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
 
 }
 
 .section-title h2 {
-  font-weight: bold;
-  font-family: 'Pathway Gothic One', sans-serif ;
-  font-size: 30px;
-  position: relative;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
- 
+    font-weight: bold;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
 }
 
 .section-title p {
-  font-weight: normal;
-  color: white;
-  
- 
+    font-weight: normal;
+    color: white;
+
+
 }
 
 .section-title h2::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #aabbd7;
-  bottom: 0;
-  left: calc(50% - 25px);
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #aabbd7;
+    bottom: 0;
+    left: calc(50% - 25px);
 }
 
 .lesson {
@@ -188,15 +189,15 @@ span:hover {
     color: #57606f;
 }
 
-.lesson-lesson{
+.lesson-lesson {
     background-color: white;
     padding: 30px;
     border-radius: 10px;
-    
+
 }
 
 .lesson-lesson:hover {
-    
+
     transform: scale(1.09);
     cursor: default;
 
@@ -204,7 +205,7 @@ span:hover {
 
 
 .lesson h4 {
-   
+
     margin: 20px 0px;
     color: #2f3542;
 }
@@ -214,57 +215,114 @@ span:hover {
 }
 
 .txt-contents {
-   
-  width: 100%;
-  display: inline-block;  
-  font-size: 15px;
-  
+
+    width: 100%;
+    display: inline-block;
+    font-size: 15px;
+
 }
 
 .heading h3 {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 
 .lesson-img {
-  width: 40%;
-  color: white;
-    
+    width: 40%;
+    color: white;
+
 }
 
+
+/* ---------------------------------------------------------------------- */
+
+/* Css pd kontent tambahan (Page tentang kami) */
+
+#about {
+
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    text-align: center;
+    height: 80vh;
+
+
+}
+
+#about .title {
+    font-family: 'Play', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: black;
+}
+
+.about {
+    float: left;
+    width: 20%;
+}
+
+.icon-about {
+    position: relative;
+}
+
+.icon-about p {
+    margin-top: 50px;
+    color: black;
+}
+
+
+.icon-about img {
+    width: 250px;
+}
+
+.about .txt {
+    padding-bottom: 40px;
+}
+
+
+
+/* ----------------------------------------------------------- */
+
+/* -------------------------------------------------------------- */
 /* AwalFooter */
 footer {
-    background-color: #090722;
-    height: 23vh;
-
-}
-
-footer .container {
-
-    padding: 30px;
     display: flex;
-    color: white;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-}
-
-footer .container .logo {
-   width: 100px;
-    height: 50px;
-    right: auto;
-}
-
-footer h2 {
-    font-size: 10px;
-}
-
-
-
-.container-footer {
+    align-items: center;
+    background-color: #222831;
     width: 100%;
-    left: 200px;
-    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px 2%;
+}
+
+
+
+.imgfooter {
+
+    width: 30px;
+    height: auto;
+
+}
+
+.imgfoot {
+    top: 100px;
+    width: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer .list-footer {
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 20px 2%;
+
 
 }
 
@@ -272,29 +330,17 @@ footer h2 {
     list-style: none;
 }
 
-.list-footer ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 10px;
+.list-footer li {
+    display: inline-block;
+    padding: 0 20px;
+    cursor: pointer;
 }
 
-.list-footer {
-    float: left;
-    width: 20%;
-    margin-left: 150px;
+
+
+
+.clear {
+    clear: left;
 }
 
-.isi-footer {
-    position: relative;
-
-}
-
-footer p,
-a {
-    text-align: center;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    font-size: 12px;
-}
 /* Akhir Footer */
