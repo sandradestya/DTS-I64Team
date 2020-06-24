@@ -1,4 +1,4 @@
-@media screen and (max-width:1291px) {
+@media all and (max-width:1291px) {
     .bg {
         display: none;
 
@@ -10,26 +10,35 @@
         top: 50px;
     }
 
-/* -----------Project-------------- */
-   .lesson {
+    .lesson {
 
         width: 50%;
         padding: 20px;
     }
 
+    #about {
+        height: 190vh;
+    }
 
+    .about {
+        width: 50%;
+        padding-bottom: 50px;
+    }
 
-    /* footer */
-     .container-footer .list-footer {
+    .container-footer .list-footer {
         margin-left: 70px;
+    }
+
+    #home {
+        margin-bottom: 250px;
     }
 
 }
 
 
+@media all and (max-width:670px) {
 
 
-@media screen and (max-width:768px) {
     #home .container {
         text-align: center;
         position: relative;
@@ -106,23 +115,61 @@
         transform: translateY(0);
     }
 
+    nav .nav-list li {
+        padding-left: 0;
+    }
+
     nav .nav-list li a {
         font-size: 30px;
         line-height: 80px;
     }
 
-   
 
-/* -----------Project-------------- */
+
+    section {
+
+        padding: 10px;
+
+    }
+
     .lesson {
 
-        width: 100%;    
+        width: 100%;
+    }
+
+    #about {
+        height: 300vh;
+    }
+
+    .about {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    footer {
+        font-size: 10px;
+        text-align: center;
     }
 
 
     /* footer */
 
-    .container-footer .list-footer {
-        margin-left: 30px;
+
+}
+
+@media all and (max-width:360px) {
+
+    .icon-project img {
+        width: 150px;
+    }
+
+    #about .about .icon-about img {
+        width: 100px;
+    }
+
+
+
+    #about {
+        height: 340vh;
     }
 }
